@@ -1,0 +1,265 @@
+header nav i#teacher-list {
+  color: #ff6b6b;
+}
+/* -------------------------------------------------------teacher box section */
+main section.teachers {
+  display: flex;
+  flex-direction: column;
+  gap: 7.6rem;
+  margin-top: 4.4rem;
+  margin-bottom: 8.6rem;
+}
+main section.teachers div.music-field {
+  display: flex;
+  flex-direction: column;
+  gap: 3.8rem;
+  position: relative;
+}
+main section.teachers div.music-field div.music-field-tittle {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #313b46;
+  position: relative;
+}
+main section.teachers div.music-field div.music-field-tittle ::after {
+  content: "";
+  width: 20%;
+  height: 2px;
+  transform: translateX(85%);
+  bottom: -10px;
+  position: absolute;
+  background-color: #ff6b6b;
+}
+main section.teachers div.music-field div.right-chevron {
+  position: absolute;
+  padding: 1.2rem;
+  color: #fff;
+  background-color: #465564;
+  top: 50%;
+  right: 0%;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transform: translate(170%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 5px 20px 0px #748da6bc;
+  transition: all 0.3s;
+}
+main section.teachers div.music-field div.right-chevron:hover {
+  background-color: #313b46;
+  box-shadow: 0px 5px 20px 0px #748da6;
+}
+main section.teachers div.music-field div.left-chevron {
+  position: absolute;
+  padding: 1.2rem;
+  color: #fff;
+  background-color: #465564;
+  top: 50%;
+  left: 0%;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transform: translate(-170%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 5px 20px 0px #748da6bc;
+  transition: all 0.3s;
+}
+main section.teachers div.music-field div.left-chevron:hover {
+  background-color: #313b46;
+  box-shadow: 0px 5px 20px 0px #748da6;
+}
+main section.teachers div.music-field div.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: stretch;
+  gap: 3rem;
+}
+main section.teachers div.music-field div.cards div.card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 11px;
+  border: 3px solid #748da6;
+  border-collapse: collapse;
+  overflow: visible;
+  box-shadow: 0px 5px 20px 0px #748da670;
+  padding-bottom: 1.6rem;
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+main section.teachers div.music-field div.cards div.card:hover {
+  box-shadow: 0px 5px 20px 0px #748da6;
+}
+main section.teachers div.music-field div.cards div.card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+  box-shadow: 0px 5px 20px 0px #333333a1;
+}
+main section.teachers div.music-field div.cards div.card div.image img {
+  width: 100%;
+  display: block;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border: 3px solid #748da6;
+  border-collapse: collapse;
+}
+main section.teachers div.music-field div.cards div.card div.details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 1rem;
+}
+main section.teachers div.music-field div.cards div.card div.details h4 {
+  font-size: 1rem;
+  color: #465564;
+}
+main section.teachers div.music-field div.cards div.card div.details ul {
+  margin-right: 0.8rem;
+  color: #465564;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  justify-self: flex-end;
+}
+main section.teachers div.music-field div.cards div.card div.details li {
+  list-style: none;
+  vertical-align: middle;
+}
+main section.teachers div.music-field div.cards div.card div.details li i {
+  margin-left: 0.5rem;
+  color: #ff6b6b;
+}
+main
+  section.teachers
+  div.music-field
+  div.cards
+  div.card
+  div.details
+  li
+  i.fa-person {
+  margin-right: 3px;
+}
+
+main section.teachers div.music-field div.cards div.card div.details p {
+  font-size: 0.85rem;
+  color: #555555;
+  line-height: 1.6;
+}
+main
+  section.teachers
+  div.music-field
+  div.cards
+  div.card
+  div.details
+  p
+  span.details-bold {
+  font-weight: 600;
+}
+main section.teachers div.music-field div.cards div.card button.card-button {
+  transform: translate(-50%, 125%);
+  width: 40%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #ff6b6b;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+main
+  section.teachers
+  div.music-field
+  div.cards
+  div.card
+  button.card-button:hover {
+  background-color: #b96666;
+}
+main section.teachers div.music-field div.dots {
+  position: absolute;
+  bottom: -8%;
+  right: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  width: 10%;
+  transform: translate(50%, 50%);
+}
+main section.teachers div.music-field div.dots div.dot {
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #313b46;
+  cursor: pointer;
+}
+main section.teachers div.music-field div.dots div.dot--fill {
+  background-color: #313b46;
+}
+/* -------------------------------------------------------cta section */
+main section.cta {
+  background-image: linear-gradient(#465564d6, #465564d8),
+    url(../image/CTA/piano-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 11px;
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 7.6rem;
+  margin-top: 10rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 20px 0px #555555cb;
+}
+main section.cta h3 {
+  font-size: 1.9rem;
+  color: #9cb4cc;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  letter-spacing: -1px;
+}
+main section.cta p {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+main section.cta button {
+  border: none;
+  border-radius: 11px;
+  padding: 0.6rem 1.2rem;
+  background-color: #ff6b6b;
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+main section.cta button:hover {
+  background-color: #ff6464;
+  box-shadow: 0px 5px 20px 0px #ff6b6b3f;
+}

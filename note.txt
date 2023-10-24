@@ -1,0 +1,49 @@
+////////////color////////////
+#FF6B6B light red
+#313b46 air force blue(more shade)
+#465564 air force blue(shade)
+#748DA6 air force blue
+#9CB4CC powder blue
+#e3e8ed air force blue(tint)
+#D3CEDF lavender
+#edebf2 lavender(tint)
+#F2D7D9 misty rose
+#333333 gray
+#555555 light gray
+#2f9e44 green
+#728d43 olive green
+////////////color////////////
+
+
+////////////color selected from////////////
+yeun.github.io/open-color
+maketintsandshades.com 
+////////////color selected from////////////
+
+
+////////////font////////////
+dana
+////////////font////////////
+
+
+////////////copy text from////////////
+https://ferdowsacademy.com
+////////////copy text from////////////
+
+
+////////////image source////////////
+pexels.com
+unsplash.com
+drawkit.com
+uifaces.co
+////////////image source////////////
+
+
+////////////icon source////////////
+https://fontawesome.com
+https://www.flaticon.com
+https://icons.getbootstrap.com
+////////////icon source////////////
+
+
+

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آموزشگاه موسیقی/ تماس با ما</title>
+    <link rel="icon" type="image/png" href="../image/logo/musical-note.png" />
+    <link rel="stylesheet" href="../style/contact.css" />
+    <link rel="stylesheet" href="../style/general.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="header">
+        <div class="nav-item">
+          <a href="index.html">
+            <i class="fa-solid fa-house" id="home-page"></i> آموزشگاه موسیقی
+            مرزبان</a
+          >
+        </div>
+        <div class="nav-item">
+          <a href="classes.html">
+            <i class="fas fa-graduation-cap" id="classes"></i> کلاس های آموزشگاه
+            موسیقی</a
+          >
+        </div>
+        <div class="nav-item">
+          <a href="teacher-list.html">
+            <i class="fas fa-chalkboard-teacher" id="teacher-list"></i> لیست
+            اساتید</a
+          >
+        </div>
+        <div class="nav-item">
+          <a href="contact.html">
+            <i class="fas fa-phone" id="contact"></i> تماس با ما</a
+          >
+        </div>
+      </nav>
+      <a href="index.html" class="logo"
+        ><img src="../image/logo/logo2.png" alt="brand logo"
+      /></a>
+    </header>
+    <main>
+      <div class="informaition container">
+        <div class="number">
+          <div class="info-tittle"><p>راه های ارتباطی</p></div>
+          <div class="info-details">
+            <a href="tel:02122256826">
+              <i class="fas fa-phone"></i> 02122256826</a
+            >
+            <a href="tel:09332368885">
+              <i class="fa-brands fa-telegram"></i> 09332368885</a
+            >
+            <a href="tel:09212922187">
+              <i class="fa-brands fa-whatsapp"></i> 09212922187</a
+            >
+          </div>
+        </div>
+        <div class="address">
+          <div class="info-tittle"><p>آدرس ها</p></div>
+          <div class="info-details">
+            <p>
+              <i class="fa-solid fa-location-dot"></i> پاسداران خ یکم نبش خیابان
+              دعوی , پلاک 148
+            </p>
+
+            <a href="mailto:info@marzbanmusic.com"
+              ><i class="fa-solid fa-envelope"></i> info@marzbanmusic.com</a
+            >
+          </div>
+        </div>
+        <div class="location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d404.6887025182911!2d51.454888!3d35.762856!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e041a7895e7a9%3A0x601d798fb8be5c43!2sMarzban%20Music%20Institute!5e0!3m2!1sen!2str!4v1679225888467!5m2!1sen!2str"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <section class="form">
+        <div class="form-heading form-style">
+          <h2>دریافت مشاوره</h2>
+        </div>
+        <form action="post">
+          <div class="form-tittle">
+            <h3>فرم ثبت نام</h3>
+            <img src="../image/form/clipboard.png" alt="form" />
+          </div>
+          <div class="full-name form-style">
+            <div class="lable">
+              <label for="full-name"> نام کامل</label>
+              <span class="necessary">(ضروری)</span>
+            </div>
+            <input
+              class="input"
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder="نام و نام خوانوادگی"
+            />
+          </div>
+          <div class="radio form-style">
+            <div class="lable">
+              <p>آیا در ایران زندگی می‌کنید؟</p>
+              <span class="necessary">(ضروری)</span>
+            </div>
+            <div class="radio-yes">
+              <input
+                class="input"
+                type="radio"
+                id="radio-yes"
+                name="radio-yes"
+                value="بله"
+              />
+              <label for="radio-yes">بله</label>
+            </div>
+            <div class="radio-no">
+              <input
+                class="input"
+                type="radio"
+                id="radio-no"
+                name="radio-no"
+                value="خیر"
+              />
+              <label for="radio-no">خیر</label>
+            </div>
+          </div>
+          <div class="number form-style">
+            <div class="lable">
+              <label for="number">شماره تلفن</label>
+              <span class="necessary">(ضروری)</span>
+            </div>
+            <p>* توجه شود شماره تلفن باید حتما واتساپ داشته باشد.</p>
+            <input
+              class="input"
+              type="number"
+              id="number"
+              name="number"
+              placeholder="شماره خود را وارد کنید"
+            />
+          </div>
+          <div class="select">
+            <div class="lable">
+              <label for="select">قصد ثبت نام در کدام دوره را دارید؟</label>
+              <span class="necessary">(ضروری)</span>
+            </div>
+            <select class="input" name="select" id="select">
+              <option value="piano">پیانو</option>
+              <option value="guitar">گیتار</option>
+              <option value="violin">ویالون</option>
+              <option value="vocal">آواز</option>
+            </select>
+          </div>
+          <div class="submit">
+            <a href="#">ارسال درخواست</a>
+          </div>
+        </form>
+        <div class="form-icon">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </section>
+      <div class="fixed-icon">
+        <div class="support">
+          <a href="tel:09332368885"
+            ><img src="../image/fixed-icon/support.png" alt="support"
+          /></a>
+        </div>
+        <div class="back-to-top">
+          <a href="#top"
+            ><img src="../image/fixed-icon/arrowhead-up.png" alt="back to top"
+          /></a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="column-logo">
+          <div>
+            <img src="../image/logo/logo2.png" alt="brand logo" />
+            <p>
+              آموزشگاه موسیقی مرزبان با 15 سال سابقه در زمینه تدریس هنر موسیقی،
+              همواره در تلاش است که خدمات آموزشی مطلوب و باکیفیت را به
+              دوست‌داران هنر موسیقی ارائه دهد. موسسه مرزبان با بهره گیری از دانش
+              اساتید مجرب، توانسته است در طی این سال‌ها هنرمندان بسیاری را تربیت
+              و به جامعه هنر موسیقی هدیه دهد.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#"><i class="fa-brands fa-telegram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div>
+            <a class="footer-tittle after-tittle--1"> دسترسی سریع</a>
+            <a class="footer-item">صفحه اصلی</a>
+            <a class="footer-item">درباره ما</a>
+            <a class="footer-item">مطالب آموزشی</a>
+            <a class="footer-item">ارتباط با ما</a>
+          </div>
+        </div>
+        <div class="column">
+          <div>
+            <a class="footer-tittle after-tittle--2">ارتباط با ما</a>
+            <a class="footer-item">پاسداران خ یکم نبش خیابان دعوی , پلاک 148</a>
+            <a href="mailto:info@marzbanmusic.com" class="footer-item"
+              >info@marzbanmusic.com</a
+            >
+            <a href="tel:09332368885" class="footer-item">09332368885</a>
+            <a href="tel:02122256826" class="footer-item">02122256826</a>
+          </div>
+        </div>
+        <div class="column">
+          <div>
+            <a class="footer-tittle after-tittle--3">قوانین و حریم خصوصی</a>
+            <a class="footer-item">تیم ما</a>
+            <a class="footer-item">همکاری باما </a>
+            <a class="footer-item"> انتقادات و پیشنهادات</a>
+          </div>
+        </div>
+        <div class="coppy-write">
+          <p>
+            کپی‌رایت &copy; 2023 - تمامی حقوق مربوط به آموزشگاه موسیقی مرزبان
+            بوده و محفوظ است.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
