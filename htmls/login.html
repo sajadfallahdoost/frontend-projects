@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login with OTP</title>
+  <link rel="stylesheet" href="../style/login.css">
+  <link rel="icon" type="image/png" href="../image/logo/musical-note.png" />
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+</head>
+<body>
+  <div class="login-container">
+    <h2 dir="rtl"><i class="fas fa-user"></i> صفحه ورود کاربر</h2>
+    <form id="loginForm" dir="rtl">
+        <label for="username">نام کاربری:</label>
+        <input type="text" id="username" name="username" placeholder="نام کاربری خود را وارد کنید" style="border-radius: 10px; border: solid 1px rgb(151, 151, 151);" >
+        <br>
+        <button type="button" onclick="generateOTP()" id="gen">ساخت رمز یکبار مصرف</button>
+        <br>
+        <br>
+        
+        <label for="otp">رمز یکبار مصرف:</label>
+        <input type="text" id="otp" name="otp" placeholder="رمز نمایش داده شده را وارد کنید" required style="border-radius: 10px; border: solid 1px rgb(151, 151, 151);"> 
+        <button onclick="sucsess()">ورود</button>
+    </form>
+    <span id="show_otp" ></span>
+    <span id="sucsessshow" ></span>   
+
+  </div>
+
+  <script src="../script/login.js"></script>
+</body>
+</html>

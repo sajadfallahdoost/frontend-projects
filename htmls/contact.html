@@ -39,6 +39,11 @@
             <i class="fas fa-phone" id="contact"></i> تماس با ما</a
           >
         </div>
+        <div class="nav-item">
+          <a href="login.html">
+            <i class="fas fa-right-to-bracket"></i> ثبت نام | ورود </a
+          >
+        </div>
       </nav>
       <a href="index.html" class="logo"
         ><img src="../image/logo/logo2.png" alt="brand logo"
@@ -107,11 +112,12 @@
               placeholder="نام و نام خوانوادگی"
             />
           </div>
-          <div class="radio form-style">
+          <!-- <div class="radio form-style">
             <div class="lable">
               <p>آیا در ایران زندگی می‌کنید؟</p>
               <span class="necessary">(ضروری)</span>
             </div>
+            
             <div class="radio-yes">
               <input
                 class="input"
@@ -132,8 +138,25 @@
               />
               <label for="radio-no">خیر</label>
             </div>
+          </div> -->
+          <div>
+            <div class="lable">
+              <span>آیا در ایران زندگی می‌کنید؟</span>
+              <span class="necessary">(ضروری)</span>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="yesNoRadio" value="yes"> بله
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="yesNoRadio" value="no"> خیر
+              </label>
+            </div>
           </div>
-          <div class="number form-style">
+          <br>
+          <div id="form" class="number form-style">
             <div class="lable">
               <label for="number">شماره تلفن</label>
               <span class="necessary">(ضروری)</span>
@@ -141,11 +164,13 @@
             <p>* توجه شود شماره تلفن باید حتما واتساپ داشته باشد.</p>
             <input
               class="input"
-              type="number"
-              id="number"
+              type="tel"
+              id="number1"
               name="number"
               placeholder="شماره خود را وارد کنید"
+              dir="rtl"
             />
+            <small id="form-ErrorRed"></small>
           </div>
           <div class="select">
             <div class="lable">
@@ -239,5 +264,6 @@
         </div>
       </div>
     </footer>
+    <script src="../script/regex contact.js"></script>
   </body>
 </html>
